@@ -1,5 +1,9 @@
+import { createLogger } from "./logger"
+
 export function echo() {
-    console.log("foo")
+    const logger = createLogger()
+
+    logger.info("foo")
 }
 
 echo()
