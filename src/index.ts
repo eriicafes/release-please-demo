@@ -1,7 +1,7 @@
 import { logger } from "./logger"
 
-export function echo() {
-    logger.info("foo", "bar")
+export function echo(message: string) {
+    logger.info(message)
 }
 
-echo()
+echo("foo bar")
