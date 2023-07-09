@@ -5,3 +5,5 @@ export function createLogger() {
         error: (...args: any[]) => console.log(`[error]:`, ...args),
     }
 }
+
+export const logger = createLogger()
