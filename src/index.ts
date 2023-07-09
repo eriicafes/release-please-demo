@@ -1,7 +1,7 @@
 import { logger } from "./logger"
 
 export function echo() {
-    logger.info("foo")
+    logger.info("foo", "bar")
 }
 
 echo()
